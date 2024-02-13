@@ -33,7 +33,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
     }
     onNoteCreated(content);
     setContent("");
-    setShouldShowOnboarding(true);
+    setShouldShowOnboarding(false);
     toast.success("Nota criada com sucesso!");
   }
 
